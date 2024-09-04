@@ -1,0 +1,32 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+div {
+    margin-top: 20px;
+}
+
+.border {
+    border: 20px solid transparent;
+    padding: 20px;
+    border-image: url(/cheat-code/_img/border.png) 30 round;
+}
+
+.border2 {
+    border: 20px solid transparent;
+    padding: 20px;
+    border-image: url(/cheat-code/_img/border.png) 30 stretch;
+}
+
+.border3 {
+    border: 20px solid transparent;
+    padding: 20px;
+    border-image: url(/cheat-code/_img/border.png) 40 round;
+}
+
+.border4 {
+    border: 20px solid transparent;
+    padding: 20px;
+    border-image: url(/cheat-code/_img/border.png) 20% round;
+}

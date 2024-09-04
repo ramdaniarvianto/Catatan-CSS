@@ -1,0 +1,42 @@
+* {
+    cursor: progress;
+    margin: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.segitiga1 {
+    margin: 10px auto;
+    height:0px;
+    width:0px;
+    border-bottom: 120px solid royalblue;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+
+.segitiga2 {
+    margin: 10px auto;
+    height:0px;
+    width:0px;
+    border-top: 120px solid red;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+
+.segitiga3 {
+    margin: 10px auto;
+    height:0px;
+    width:0px;
+    border-left: 120px solid orange;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+}
+
+.segitiga4 {
+    margin: -75px auto;
+    height:0px;
+    width:0px;
+    border-right: 120px solid greenyellow;
+    border-top: 80px solid transparent;
+    border-bottom: 80px solid transparent;
+}

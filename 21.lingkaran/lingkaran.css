@@ -1,0 +1,22 @@
+* {
+    cursor: progress;
+    margin: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.lingkaran {
+    cursor: wait;
+    margin: 50px auto;
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    border-radius: 100%;
+    transition: .9s ease-in-out;
+}
+.lingkaran:hover {
+    border: 100px solid white;
+}
+.lingkaran:not(:hover) {
+    border: 100px solid royalblue;
+}

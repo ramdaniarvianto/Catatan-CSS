@@ -1,0 +1,46 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+h1 {
+    position: absolute;
+    left: 30px;
+    color: white;
+    z-index: 1;
+}
+
+img {
+    position: relative;
+    width: 100%;
+}
+
+.kotak1, .kotak2, .kotak3 {
+    margin-top: 9px;
+}
+
+.kotak1 {
+    position: relative;
+    left: 40px;
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+}
+.kotak2 {
+    z-index: 9;
+    position: absolute;
+    top: 330px;
+    left: 20px;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+.kotak3 {
+    z-index: 1;
+    position: absolute;
+    top: 560px;
+    left: 100px;
+    background-color: palevioletred;
+    width: 200px;
+    height: 200px;
+}

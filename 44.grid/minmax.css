@@ -1,0 +1,23 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, 100px); */
+    grid-template-columns: 1fr minmax(200px, 300px) 1fr;
+}
+
+.item {
+    background-color: skyblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:nth-child(even) {
+    background-color: royalblue;
+}

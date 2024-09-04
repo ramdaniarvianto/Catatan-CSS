@@ -1,0 +1,19 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    padding: 6px;
+    width: 100px;
+    -webkit-transition: width .35s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+input[type="text"]:focus {
+    width: 300px;
+}
+
+input:focus {
+    color: white;
+}

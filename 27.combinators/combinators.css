@@ -1,0 +1,20 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.descendant p {
+    background-color: royalblue;
+}
+
+.child > p {
+    background-color: red;
+}
+
+div + p {      /* adjacent sibling selector */
+    background-color: aqua;
+}
+
+div ~ p {       /* general sibling selector */
+    background-color: pink;
+}

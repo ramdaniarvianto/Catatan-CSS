@@ -1,0 +1,52 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+    cursor: progress;
+}
+
+.biasa, .hover, .active, .visited {
+    display: block;
+    line-height: 1.8;
+}
+
+.hover {
+    text-decoration: none;
+    color: orange;
+}
+.hover:hover {
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.active {
+    text-decoration: none;
+    color: brown;
+}
+.active:active {
+    color: yellow;
+}
+
+.visited {
+    text-decoration: none;
+    color: green;
+}
+.visited:visited {
+    color: red;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    background-color: royalblue;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+}
+.button:hover {
+    background-color: rgb(7, 30, 98);
+}
+.button:not(:hover) {
+    background-color: royalblue;
+}

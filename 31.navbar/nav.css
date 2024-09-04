@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.kesatu {
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+}
+
+.kesatu li {
+    float: left;
+}
+
+.kesatu li a {
+    display: block;
+    padding: 14px;
+    color: white;text-decoration: none;
+}
+
+ul.kesatu li.right {
+    float: right;
+}
+
+.kesatu li a:hover {
+    background-color: royalblue;
+}
+
+.clearfix {
+    padding-top: 50px;
+}
+
+@media screen and (max-width: 500px) {
+    ul.kesatu li.right, ul.kesatu li {
+        float: none;
+    }
+
+    .clearfix {
+        padding-top: 190px;
+    }
+}

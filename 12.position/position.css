@@ -1,0 +1,65 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.static {
+    background-color: royalblue;
+    position: static;
+}
+
+.relative {
+    background-color: red;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    width: 350px;
+}
+
+.fixed {
+    background-color: greenyellow;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+.absolute {
+    background-color: yellow;
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    left: 20px;
+    top: 22px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    color: white;
+    background-color: royalblue;
+    padding: 10px;
+    border-radius: 5px;
+    width: 49%;
+}
+
+.cointainer {
+    position: relative;
+}
+
+img {
+    opacity: 0.5;
+}
+
+.teks {
+    position: absolute;
+    /* top: 830px; */ /*---Website---*/
+    top: 1605px;
+    left: 26px;
+    color: white;
+    background-color: royalblue;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}

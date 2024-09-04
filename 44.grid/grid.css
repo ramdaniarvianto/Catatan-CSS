@@ -1,0 +1,254 @@
+/* CSS Grid */
+/* Modul CSS Baru untuk mendefinisikan sistem layout berbentuk grid dalam 2 dimensi (baris & kolom) */
+
+/* .container {
+    display: grid;
+} */
+
+/* CSS Grid Terminology */
+/* =================== */
+
+/* Grid Container */
+/* "Element pembungkus grid, didefinisikan dengan menuliskan
+    display: grid;" */
+
+/* Grid Item */
+/* "Element-element yang berada (1 level) di dalam grid container"
+    <div class = "container">
+        <div class = "item">Item 1</div>
+        <div class = "item">Item 2</div>
+    </div> */
+
+/* Grid Line */
+/* "Garis horizontal (kolom) atau vertikal (baris) yang memisahkan grid menjadi beberapa bagian dan ditandai dengan dengan angka" */
+
+/* Grid Cell */
+/* "Perpotongan / pertemuan antara baris dan kolom di dalam grid" */
+
+/* Grid Area */
+/* "Kumpulan lebih dari satu grid cell yang membentuk kotak" */
+
+/* Grid Track */
+/* "Ukuran atau jarak antara 2 grid line, bisa horizontal (kolom) atau vertikal (baris)" */
+
+/* Grid Gap */
+/* "Jarak antar grid track / cell" */
+
+/* ==================== */
+/* CSS Grid Properties */
+/* ================== */
+/* ======================= */
+/* Bisa diberikan di container */
+/* ========================== */
+/* grid-template-columns
+grid-template-rows */
+/* 2 properti yang paling penting yang digunakan untuk mendefinisikan kolom/baris dengan cara menuliskan nilai dipisahkan oleh spasi. nilai merepresentasikan ukuran grid track dan spasi merepresentasikan grid line */
+
+/* =========== */
+/* Grid Value */
+/* ========= */
+
+/* .container {
+    display: grid;
+    grid-template-columns: <track-size> ... | <line-name> <track-size>... ;
+    grid-template-rows: <track-size> ... | <line-name> <track-size> ...
+} */
+
+/* <track-size> : bisa berupa px, %, auto, atau fr (fraction) */
+/* <line-name> : nama yang bisa diberikan pada track */
+
+/* .container {
+    display: grid;
+    grid-template-columns: [awal] 25% [kolom2] auto [kolom3] 50px [empat];
+    grid-template-rows: [baris-awal] 50px [b2] 100px [b3] auto [b-akhir];
+} */
+
+
+/* grid-auto-columns
+grid-auto-rows */
+/* Mengatur ukuran grid track yang tidak dituliskan pada grid-template (implicit track) */
+
+/* .container {
+    grid-auto-columns: <track-size>;
+    grid-auto-rows: <track-size>;
+} */
+
+/* grid-auto-flow */
+/* Mengatur penempatan item / cell pada grid track, termasuk yang ditulis secara implicit */
+
+/* .container {
+    grid-auto-flow: row | column | row dense | column dense;
+} */
+
+/* grid-template-areas */
+/* Mendefinisikan grid template menggunakan nama dari area yang ditulis pada property grid-area pada item */
+
+/* .container {
+    grid-template-areas: 
+        " <nama-area> | none | '.' "
+        " <nama-area> <nama-area> ";
+} */
+
+/* grid-template */
+/* Shorthand untuk mendefinisikan grid-template-rows, grid-template-columns, dan grid-template-areas dalam satu deklarasi. */
+
+/* .container {
+    grid-template: <grid-template-row> | <grid-template-areas> / <grid-template-columns>;
+} */
+
+/* grid-column-gap
+grid-row-gap
+column-gap & grow-gap */
+/* Mendefinisikan ukuran grid-line / jarak antara baris atau kolom */
+
+/* .container {
+    /===/ cara = baru /===/
+    column-gap: <line-size>;
+    row-gap: <line-size>;
+
+    /===/ cara = lama /===/
+    grid-column-gap: <line-size>;
+    grid-row-gap: <line-size>;
+} */
+
+/* grid-gap
+gap */
+/* Shorthand untuk mendefinisikan column-gap, row-gap, dalam satu deklarasi */
+
+/* .container {
+    /===/ cara = baru /===/
+    gap: <grid-row-gap> <grid-column-gap>;
+    /===/ cara = lama /===/
+    grid-gap: <grid-row-gap> <grid-column-gap>;
+} */
+
+/* grid */
+/* Shorthand yang paling lengkap untuk mendefinisikan properti-properti berikut dalam satu deklarasi:
+grid-template-rows, grid-template-columns, grid-template-areas, grid-auto-rows, grid-auto-columns, dan grid-auto-flor */
+
+/* justify-items */
+/* align-items */
+/* place-items */
+/* justify-content */
+/* align-content */
+/* place-content */
+/* ============ */
+
+/* ======================= */
+/* Bisa diberikan di item */
+/* ===================== */
+/* grid-column-start */
+/* grid-column-end */
+/* grid-row-start */
+/* grid-row-end */
+/* grid-column */
+/* grid-row */
+/* grid-area */
+/* justify-self */
+/* align-self */
+/* place-self */
+/* ========= */
+
+
+/* Explicit & Implicit Grid */
+/* Explicit : Ketika kita secara jelas menuliskan ukuran dari gridnya, kolom dan barisnya. */
+/* Impicit : Ketika gridnya menentukan secara otomatis sisanya dari kolom dan baris yang tidak ditentukan secara explicit. jadi implicit, otomatis ditentukan oleh gridnya. */
+
+/* =========================== */
+/* Special Function & Keyword */
+/* ========================= */
+/* repeat() */
+/* Menentukan ukuran grid track secara berulang */
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+} */
+
+/* min-content & max-content */
+/* Menentukan seberapa besar ukuran grid track berdasarkan content pada sebuah item */
+
+/* .container {
+    display: grid;
+    grid-template-columns: min-content | max-content;
+} */
+
+/* minmax() */
+/* Menentukan ukuran minimal dan maksimal dari grid track */
+
+/* .container {
+    display: grid;
+    grid-template-columns: minmax(200px, 300px);
+} */
+
+/* auto-fill & auto-fit */
+/* Menentukan jumlah item untuk berada pada grid track */
+
+/* .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 150px);
+} */
+
+/* =================== */
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    border: 5px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    display: grid;
+    grid-template-areas: "header header"
+        "aside main"
+        "nav main"
+        "footer footer";
+    grid-template-columns: 1fr 1.5fr;
+    grid-template-rows: 1fr 1fr 1.3fr ;
+}
+
+header {
+    grid-area: header;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    grid-area: aside;
+    background-color: purple;
+    padding: 60px 0;
+}
+
+nav {
+    grid-area: nav;
+    background-color: palevioletred;
+    padding: 100px 0;
+}
+
+main {
+    grid-area: main;
+    background-color: goldenrod;
+    flex: 1.5;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: red;
+    padding: 20px 0;
+}

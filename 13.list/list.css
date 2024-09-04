@@ -1,0 +1,32 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.menu {
+    list-style: decimal-leading-zero;
+}
+
+.ayam {
+    list-style-type: square;
+}
+
+.bebek {
+    list-style-type: georgian;
+}
+
+.kambing {
+    list-style-type: lower-roman;
+}
+
+.in-out {
+    list-style: circle;
+}
+
+.in {
+    list-style: outside;
+}
+
+.out {
+    list-style: inside;
+}

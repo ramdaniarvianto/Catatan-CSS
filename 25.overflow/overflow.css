@@ -1,0 +1,76 @@
+* {
+    cursor: progress;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(55, 55, 55);
+}
+
+.visible {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: royalblue;
+    width: 300px;
+    height: 100px;
+    overflow: visible;
+}
+
+.hidden {
+    margin-left: 10px;
+    margin-top: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: darkorange;
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.scroll {
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: red;
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.auto {
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+}
+
+.x {
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+    width: 300px;
+    height: 100px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.kosong {
+    margin-top: 10px;
+}

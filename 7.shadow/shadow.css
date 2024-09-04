@@ -1,0 +1,60 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+h1 {
+    color: royalblue;
+    text-shadow: 2px 2px 0px turquoise;
+    /*2px horizontal*/
+    /*2px vertikal*/
+    /*0px blur*/
+    /*warna*/
+}
+
+.shadow {
+    background-color: royalblue;
+    border-radius: 15px;
+    color: white;
+    padding: 10px;
+    text-indent: 15px;
+    border: 10px double white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /*4px horizontal*/
+    /*4px vertikal*/
+    /*0px blur*/
+    /*rgba warna*/
+}
+
+.card {
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+}
+.header {
+    margin-top: 40px;
+    background-color: royalblue;
+    padding: 10px;
+    font-size: 40px;
+}
+.pororo {
+    color: white;
+    text-shadow: none;
+}
+.container {
+    padding: 10px;
+}
+
+
+.polaroid {
+    margin-top: 40px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img {
+    width: 100%;
+}
+.content {
+    padding: 10px;
+}

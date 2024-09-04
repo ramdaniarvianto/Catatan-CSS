@@ -1,0 +1,11 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Montserrat'; /*jenis font*/
+    font-size: 40px; /*ukuran font*/
+    font-weight: bold; /*tebal font*/
+    font-style: italic; /*gaya pada font*/
+}

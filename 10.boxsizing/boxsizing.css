@@ -1,0 +1,27 @@
+* {
+    font-family: 'Montserrat';
+}
+
+.dengan, .tanpa {
+    margin-bottom: 7px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dengan { /*dengan box-sizing*/
+    background-color: royalblue;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.tanpa { /*tanpa box-sizing*/
+    background-color: royalblue;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+}

@@ -1,0 +1,17 @@
+::selection {
+    background-color: white;
+    color: royalblue;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+img {
+    padding: 10px;
+    box-shadow: 0px 5px 0px rgba(65, 105, 225, 1);
+}
+img:hover {
+    border-radius: 50px;
+    box-shadow: 0px 5px 0px rgba(65, 105, 225, 1);
+}

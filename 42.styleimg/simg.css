@@ -1,0 +1,15 @@
+::selection {
+    background-color: white;
+    color: black;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 60px;
+}

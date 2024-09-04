@@ -1,0 +1,48 @@
+* {
+    font-family: 'Montserrat';
+}
+
+::selection {
+    background-color: white;
+    color: black;
+}
+
+.angin {
+    width: 200px;
+    word-break: break-all;
+    padding: 20px;
+    background-color: royalblue;
+    color: white;
+    border-radius: 10px;
+    transition: .9s ease-in-out;
+}
+.angin:hover {
+    transform: rotateX(150deg);
+}
+
+.dp {
+    width: 200px;
+    word-break: break-all;
+    padding: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    transition: .9s ease-in-out;
+}
+.dp:hover {
+    transform: rotateY(150deg);
+}
+
+.nolpersen {
+    width: 200px;
+    word-break: break-all;
+    padding: 20px;
+    background-color: plum;
+    color: white;
+    border-radius: 10px;
+    transform: rotateZ(180deg);
+    transition: .9s ease-in-out;
+}
+.nolpersen:hover {
+    transform: rotateZ(360deg);
+}

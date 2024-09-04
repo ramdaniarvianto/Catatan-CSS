@@ -1,0 +1,50 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid;
+}
+
+.center-lagi {
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+    color: white;
+    background-color: royalblue;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .3s ease-in-out;
+}
+.center-lagi:hover {
+    width: 90%;
+    background-color: dodgerblue;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    transition: .3s ease-in-out;
+}
+img:hover {
+    border-radius: 20px;
+}
+
+.position {
+    margin-top: 20px;
+    border: 2px solid;
+    width: 50%;
+    position: absolute;
+    right: 0;
+}
+
+.float {
+    margin-top: 180px;
+    border: 3px solid royalblue;
+    width: 40%;
+    float: right;
+}

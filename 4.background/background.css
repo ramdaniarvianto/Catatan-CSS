@@ -1,0 +1,18 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('/_img/rollsroyce_black.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: royalblue;
+}
+
+p {
+    color: white;
+}

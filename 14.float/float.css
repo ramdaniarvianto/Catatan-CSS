@@ -1,0 +1,66 @@
+* {
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.gambar {
+    float: left;
+    margin-right: 15px;
+}
+
+.t1 {
+    float: left;
+    border: 2px solid royalblue;
+    width: 20%;
+}
+
+.t2 {
+    border: 2px solid red;
+    width: 90%;
+}
+
+.d1 {
+    float: left;
+    border: 2px solid green;
+    width: 20%;
+}
+
+.d2 {
+    border: 2px solid brown;
+    width: 90%;
+    clear: left;
+}
+
+.ramdani {
+    border: 3px solid green;
+    padding: 5px;
+    overflow: auto;
+}
+
+img {
+    float: left;
+}
+
+.satu, .dua, .tiga {
+    float: left;
+}
+
+.satu {
+    background-color: royalblue;
+    width: 200px;
+    height: 200px;
+}
+.dua {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
+.tiga {
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+}
+
+.jarak {
+    margin-top: 20px;
+}

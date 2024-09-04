@@ -1,0 +1,13 @@
+::selection {
+    background-color: white;
+    color: royalblue;
+}
+
+* {
+    font-family: 'Montserrat';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
