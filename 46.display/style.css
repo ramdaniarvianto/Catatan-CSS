@@ -1,0 +1,24 @@
+/* 
+
+Property Display Pada CSS
+Fungsi property display pada CSS ini adalah untuk menentukan bagaimana suatu element ditampilkan. Property ini bisa membuat suatu tag html yang bertipe block menjadi tidak bertipe block, atau sebaliknya membuat tag html yang tidak bertipe block menjadi tag yang bertipe block.
+
+none            : Menyembunyikan element
+inline          : Membuat element menjadi bersifat inline (hanya memakan tempat sesuai dengan konten element dan tidak bisa diatur width, height, margin dan paddingnya)
+block           : Membuat element menjadi bersifat block (memakan tempat 100% ke samping (horizontal) dan bisa diatur width, height, margin juga paddingnya)
+inline-block    : Gabungan dari sifat inline dan block, sifat akan sama seperti inline tapi bisa di atur width, height, margin dan paddingnya
+
+*/
+
+.none {
+    display: none;
+}
+.inline {
+    display: inline;
+}
+.block {
+    display: block;
+}
+.inline-block {
+    display: inline-block;
+}
