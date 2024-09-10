@@ -56,3 +56,10 @@ h1 {
 .hidden {
     border: 2px hidden black;
 }
+
+.google {
+    border-top: 4px solid red;
+    border-right: 4px solid yellow;
+    border-bottom: 4px solid green;
+    border-left: 4px solid blue;
+}
