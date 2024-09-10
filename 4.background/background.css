@@ -7,6 +7,11 @@ body {
     background-image: url('/_img/rollsroyce_black.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-repeat: repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-attachment: fixed; backgroundnya akan diam atau tidak bergerak ketika kalian scroll browser */
+    /* background-attachment: scroll; | backgroundnya akan tetap mengikuti objek konten di browser */
 }
 
 h1 {
