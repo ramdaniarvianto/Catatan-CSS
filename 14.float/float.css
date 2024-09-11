@@ -1,3 +1,9 @@
+/* 
+Teknik floating pada web design merupakan sebuah kebutuhan yang paling banyak di perlukan. Property float berfungsi untuk mengatur letak element secara horizontal (sama seperti property text-align, namun propserty text-align khusus untuk text sedangkan float untuk mengatur element).
+
+Salah satu contoh penggunaan property float yang paling sering ditemukan adalah ketika ingin membuat gambar postingan website yang terletak di bagian samping tulisan konten.
+*/
+
 * {
     font-family: 'Montserrat';
     box-sizing: border-box;
