@@ -1,3 +1,43 @@
+/* 
+@keyframes adalah fungsi untuk mendefinisikan animasi pada sebuah element.
+
+Nilai pada property animation ditentukan oleh sub-property dari animation itu sendiri. Artinya, property animation tidak memiliki nilai default (single value). Nilai yang terisi dalam property animation akan bekerja dengan baik apabila nilainya cocok dengan sub-property animation.
+
+🔵Sub-Property ⚪Value 🟡Deskripsi
+
+🔵 animation-name
+⚪ ditentukan pengguna
+🟡 menjalankan seleksi terhadap nama animasi yang didefinisikan pada @keyframes.
+
+🔵 animation-duration
+⚪ angka dengan satuan detik. Contoh 5s (5 detik)
+🟡 memainkan animasi berdasarkan waktu dalam nilai animation-duration. Waktu ditentukan oleh value dari animation-duration.
+
+🔵 animation-timing-function
+⚪ linear, ease, ease-in, ease-out, ease-in-out, step-start, step-end, steps, cubic-bezier, initial, inherit
+🟡 memainkan animasi dengan kecepatan yang sama dari awal hingga akhir.
+
+🔵 animation-delay
+⚪ angka dengan satuan detik. Contoh 3s (3 detik)
+🟡 memberi waktu jeda sebelum animasi dimainkan.
+
+🔵 animation-iteration-count
+⚪ integer (angka), infinite, initial, inherit
+🟡 menentukan berapa kali animasi akan dimainkan. Animasi akan berputar berulang kali jika diisi dengan nilai infinite.
+
+🔵 animation-direction
+⚪ normal, reverse, alternate, alternate-reverse, initial, inherit
+🟡 menentukan arah (direksi) animasi.
+
+🔵 animation-fill-mode
+⚪ none, forwards, backwards, both, initial, inherit
+🟡 menentukan gaya pada sebuah element ketika belum berjalan (sebelum berjalan, setelah selesai berjalan, atau keduanya)
+
+🔵 animation-play-state
+⚪ paused, running, initial, inherit
+🟡 melakukan kontrol pada animasi untuk dihentikan atau dijalankan melalui value pada property animation-play-state.
+*/
+
 ::selection {
     background-color: white;
     color: black;
