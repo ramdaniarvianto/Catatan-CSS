@@ -1,3 +1,7 @@
+/* 
+CSS transisi (CSS transition) adalah efek transisi yang memungkinkan sebuah element secara bertahap berubah dari satu gaya ke gaya yang lain. Banyak sekali contoh pengaplikasian efek transisi pada kehidupan sehari-hari, misalnya saja ketika kalian membuat materi presentasi dengan powerpoint, pasti tidak akan lepas dengan animasi-animasi dan efek transisi untuk mempercantik tampilan slidenya.
+*/
+
 * {
     cursor: progress;
     margin: 0;
@@ -34,4 +38,19 @@
 }
 .lingkaran:not(:hover) {
     background-color: dodgerblue;
+}
+
+.royalblue {
+    background-color: royalblue;
+    width: 50px;
+    height: 50px;
+    transition: width 10s, height 10s, transform 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 2s;
+}
+.royalblue:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+    transition: width 10s, height 10s, transform 5s;
 }
