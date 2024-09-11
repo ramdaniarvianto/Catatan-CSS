@@ -13,3 +13,14 @@ rotate()    : Fungsi yang bisa kalian gunakan untuk memutar sebuah element. Untu
 
 matrix()    : Fungsi matrix berguna untuk menggabungkan beberapa transform lainnya seperti menggabungkan rotate(), skew(), scale() dan lainnya menjadi satu. Sehingga transform tersebut akan dilakukan secara sekaligus.
 */
+
+div {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg) translate(100px);
+    transition: .2s ease-in-out;
+}
+div:hover {
+    transform: none;
+}
