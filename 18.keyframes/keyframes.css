@@ -47,6 +47,10 @@ Nilai pada property animation ditentukan oleh sub-property dari animation itu se
     font-family: 'Montserrat';
 }
 
+body {
+    margin-bottom: 1000px;
+}
+
 .satu {
     background-color: royalblue;
     width: 100px;
@@ -95,4 +99,22 @@ Nilai pada property animation ditentukan oleh sub-property dari animation itu se
     100% {
         transform: rotate(360deg);
     }
+}
+
+.kotak{
+    background: royalblue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation-name: animasi_kotak;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-delay: 10s;
+}
+@keyframes animasi_kotak{
+    0% {background-color: royalblue; left:0px; top:0px;}
+    25% {background-color: red; left:200px; top:0px;}
+    50% {background-color: orangered; left:0px; top:200px;}
+    75% {background-color: tomato; left:200px; top:200px;}
+    100% {background-color: royalblue; left:0px; top:0px;}
 }
