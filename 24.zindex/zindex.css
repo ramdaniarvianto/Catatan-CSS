@@ -1,3 +1,9 @@
+/* 
+Property z-index pada CSS berkaitan dengan tumpuk menumpuk (tumpukan), sama halnya layer pada aplikasi Photoshop, semakin tinggi isi atau valuenya maka index nya semakin besar.
+
+Isi atau value dari property z-index bisa diisi dengan nilai minus (negative).
+*/
+
 * {
     font-family: 'Montserrat';
     box-sizing: border-box;
