@@ -3,11 +3,17 @@
     box-sizing: border-box;
 }
 
+/* 
+Position static digunakan untuk mengatur element menjadi statis secara default. Element mengikuti posisi normal secara default. Position static adalah nilai default dari property position pada CSS.
+*/
 .static {
     background-color: royalblue;
     position: static;
 }
 
+/* 
+Posisi element tetap mengikuti alur dokumen, hampir sama dengan value static. Yang membedakan yaitu kita bisa menggunakan property top, right, bottom dan left. Pengaturan posisi pada suatu element menggunakan property tersebut akan mendorong atau mengatur element ke arah atau posisi yang diinginkan.
+*/
 .relative {
     background-color: red;
     position: relative;
@@ -16,6 +22,9 @@
     width: 350px;
 }
 
+/* 
+Property position yang bernilai fixed akan menghilangkan atau mencabut element dari alur dokumen, hampir sama sengan element yang diberi property position yang bernilai absolute. Yang menjadi perbedaan adalah element yang diberikan property position yang bernilai fixed akan selalu mengikuti (relative) dokumen, bukan element parent tertentu atau dengan scroll halaman web.
+*/
 .fixed {
     background-color: greenyellow;
     position: fixed;
@@ -24,6 +33,11 @@
     width: 50%;
 }
 
+/* 
+Property position yang bernilai absolute akan menghilangkan atau mencabut element dari alur dokumen, dan element lainnya akan bekerja sebagaimana mestinya (tidak akan terganggu dengan element yang diberikan property absolute).
+
+Apabila element yang mempunyai property absolute tersebut ada didalam sebuah element lagi (parent element), maka element tersebut akan diabaikan seakan-akan element tersebut tidak ada di dalam element parent tersebut.
+*/
 .absolute {
     background-color: yellow;
     position: absolute;
@@ -33,6 +47,9 @@
     top: 22px;
 }
 
+/* 
+Property position yang bernilai sticky adalah gabungan dari relative dan fixed. Ketika element sticky belum berada di posisi nilai property top maka efeknya sama seperti position relative. Tetapi jika sudah ada di posisi nilai property top maka efeknya sama seperti position fixed.
+*/
 .sticky {
     position: -webkit-sticky;
     position: sticky;
