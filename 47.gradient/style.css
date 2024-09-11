@@ -1,0 +1,19 @@
+/* 
+Linear Gradient : Linear Gradient adalah gradient yang berbentuk warna yang berdampingan tapi efeknya sangat lembut. Jadi kedua warna akan terlihat menyatu. Baik itu atas ke bawah atau kiri ke kanan.
+
+Radial Gradient : Radial Gradient adalah warna gradient yang memiliki pusat tengah. jadi seperti membentuk lingkaran dalam pewarnaannya.
+*/
+
+div {
+    margin: 5px 0;
+    width: 400px;
+    height: 400px;
+}
+
+.linear {
+    background: linear-gradient(red, blue);
+}
+
+.radial {
+    background: radial-gradient(yellow, orange);
+}
