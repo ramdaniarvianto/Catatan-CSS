@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial';
+}
+
+.satu, .dua, .tiga, .empat, .lima, .enam, .tujuh {
+    color: white;
+    padding: 10px;
+}
+
+.satu {
+    background-color: royalblue;
+    width: 100%;
+    /*
+    widht: ;
+    Properti ini mengatur lebar elemen. Digunakan untuk menetapkan lebar elemen dalam satuan tertentu atau sebagai persentase dari elemen induk.
+    */
+    height: 200px;
+    /*
+    Properti ini mengatur tinggi elemen. Mengatur tinggi elemen berdasarkan nilai tetap atau persentase dari elemen induk.
+
+    */
+}
+
+.dua {
+    margin-top: 10px;
+    background-color: dodgerblue;
+    width: 50%;
+    height: 300px;
+}
+
+.tiga {
+    margin-top: 10px;
+    background-color: skyblue;
+    width: 400px;
+    height: 150px;
+}
+
+.empat {
+    margin-top: 10px;
+    background-color: royalblue;
+    max-width: 400px;
+    /*
+    max-width: ;
+    Properti ini menetapkan lebar maksimum dari elemen. Membatasi lebar elemen agar tidak lebih besar dari nilai yang ditentukan, mencegah elemen meluas terlalu besar.
+    */
+    height: 150px;
+}
+
+.lima {
+    margin-top: 10px;
+    background-color: dodgerblue;
+    min-width: 400px;
+    /*
+    min-width: ;
+    Properti ini menetapkan lebar minimum dari elemen. Membatasi lebar elemen agar tidak lebih kecil dari nilai yang ditentukan, mencegah elemen mengecil secara berlebihan.
+    */
+    height: 150px;
+}
+
+.enam {
+    margin-top: 10px;
+    background-color: dodgerblue;
+    width: 400px;
+    min-height: 200px;
+    /*
+    min-height: ;
+    Properti ini menetapkan tinggi minimum dari elemen. Menentukan batas minimum tinggi elemen sehingga elemen tidak bisa lebih kecil dari ukuran yang ditentukan.
+    */
+}
+
+.tujuh {
+    margin-top: 10px;
+    background-color: dodgerblue;
+    width: 350px;
+    max-height: 100px;
+    /*
+    max-height: ;
+    Properti ini menetapkan tinggi maksimum dari elemen. Menentukan batas maksimum tinggi elemen sehingga elemen tidak bisa lebih besar dari ukuran yang ditentukan.
+    */
+}
+
+/*
+Kegunaan min-width, max-width, min-height, dan max-height:
+Properti-properti ini berguna ketika Anda ingin membatasi ukuran minimum atau maksimum elemen pada halaman web agar tetap responsif, terutama ketika ukuran layar bervariasi. Misalnya, dalam desain web responsif, max-width sering digunakan untuk memastikan elemen tidak melebar lebih dari ukuran tertentu pada layar besar, sementara min-height digunakan untuk menjaga elemen tidak menyusut terlalu kecil pada layar yang lebih kecil.
+*/
