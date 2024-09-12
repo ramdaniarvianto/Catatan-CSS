@@ -1,0 +1,29 @@
+div {
+    width: 200px;
+}
+
+/*
+padding: ;
+Digunakan untuk menambahkan ruang di dalam elemen, antara konten dan tepi elemen. Properti padding dapat diatur secara spesifik untuk setiap sisi elemen:
+
+value padding: 
+- padding-top
+- padding-right
+- padding-bottom
+- padding-left
+*/
+
+.satu {
+    padding: 10px; /* Atas 10, Kanan 10, Bawah 10, Kiri 10 */
+    background-color: royalblue;
+}
+
+.dua {
+    padding: 10px 20px; /* Atas Bawah 10, Kiri Kanan 20 */
+    background-color: red;
+}
+
+.tiga {
+    padding: 5px 20px 40px 50px; /* Atas 5, Kanan 20, Bawah 40, Kiri 50 */
+    background-color: greenyellow;
+}
