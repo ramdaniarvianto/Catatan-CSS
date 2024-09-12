@@ -1,6 +1,8 @@
 body {
     background-image: url(philip-oroni-CrJGbb7kzU4-unsplash.jpg);
     background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 
     /* ### Properti Background ### */
     /* 
@@ -60,6 +62,7 @@ span {
 }
 
 
+
 /* 
 background-clip: ;
 berfungsi untuk menentukan pengisian background pada element html yang memiliki border
@@ -70,18 +73,44 @@ padding-box : Value padding-box akan membuat background hanya mengisi content sa
 content-box : Value content-box diterapkan apabila kalian tidak menginginkan background mengisi seluruh elemen, melainkan hanya kontennya saja.
 */
 
-div {
+.border {
     border: 3px dotted black;
     background: salmon;
     padding: 10px;
     margin: 10px;
-}
-.border {
     background-clip: border-box;
 }
 .padding {
+    border: 3px dotted black;
+    background: salmon;
+    padding: 10px;
+    margin: 10px;
     background-clip: padding-box;
 }
 .content {
+    border: 3px dotted black;
+    background: salmon;
+    padding: 10px;
+    margin: 10px;
     background-clip: content-box;
+}
+
+
+/*
+Linear Gradient : Linear Gradient adalah gradient yang berbentuk warna yang berdampingan tapi efeknya sangat lembut. Jadi kedua warna akan terlihat menyatu. Baik itu atas ke bawah atau kiri ke kanan.
+
+Radial Gradient : Radial Gradient adalah warna gradient yang memiliki pusat tengah. jadi seperti membentuk lingkaran dalam pewarnaannya.
+*/
+
+.linear-gradient {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(red, orange);
+}
+
+.radial-gradient {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(royalblue, skyblue);
 }
