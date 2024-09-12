@@ -1,0 +1,60 @@
+body {
+    background-image: url(philip-oroni-CrJGbb7kzU4-unsplash.jpg);
+    background-size: 100% 100vh;
+
+    /* ### Properti Background ### */
+    /* 
+    background-size: ;
+    Digunakan untuk menentukan seberapa besar gambar latar harus ditampilkan pada elemen.
+    
+    value:
+    - auto: Ukuran gambar latar belakang ditentukan secara otomatis. Gambar ditampilkan dengan ukuran aslinya.
+    - cover: Memperbesar atau mengecilkan gambar latar agar menutupi seluruh area elemen, mungkin dengan memotong sebagian gambar.
+    - contain: Memperbesar atau mengecilkan gambar agar seluruh gambar muat dalam area elemen tanpa terpotong, namun mungkin akan ada ruang kosong.
+    - width height: Menentukan lebar dan tinggi gambar latar secara spesifik (contoh: 100px 50px, 50% 100%).
+    */
+
+    /*
+    background-position: ;
+    Menentukan di mana gambar latar akan ditempatkan dalam elemen. Ini penting untuk memastikan gambar terlihat sesuai posisi yang diinginkan.
+
+    value:
+    - left, right, top, bottom: Mengatur posisi gambar di sudut elemen.
+    - center: Menempatkan gambar di tengah elemen.
+    - x% y%: Mengatur posisi gambar dengan persentase terhadap elemen (contoh: 50% 50% menempatkan gambar di tengah).
+    - x-pos y-pos: Mengatur posisi gambar secara spesifik dengan nilai unit seperti px, em, dll. Contoh: 10px 20px.
+    */
+
+    /*
+    background-repeat: ;
+    Digunakan untuk mengontrol pola pengulangan gambar latar pada elemen. Ini memungkinkan Anda menyesuaikan pengulangan sesuai desain.
+
+    - repeat: Mengulang gambar secara horizontal dan vertikal (default).
+    - repeat-x: Mengulang gambar hanya secara horizontal.
+    - repeat-y: Mengulang gambar hanya secara vertikal.
+    - no-repeat: Tidak mengulang gambar, hanya ditampilkan sekali.
+    - space: Mengulang gambar dengan menyisakan jarak di antara pengulangan.
+    - round: Mengulang gambar dan menskalakannya agar muat secara tepat dalam elemen.
+    */
+
+    /* 
+    background-attachment: ;
+    Mengatur apakah gambar latar akan tetap di tempat atau bergulir bersama elemen. Berguna untuk membuat efek visual menarik seperti gambar latar tetap (parallax).
+
+    - scroll: Gambar latar akan bergulir bersama konten (default).
+    - fixed: Gambar latar tetap di tempat saat konten digulir.
+    - local: Gambar latar bergulir bersama konten elemen yang menggulir (misalnya pada textarea).
+    */
+}
+
+h1 {
+    background-color: red; /* Memberikan warna background merah pada element */
+}
+
+p {
+    background-color: royalblue;
+}
+
+span {
+    background-color: greenyellow;
+}
