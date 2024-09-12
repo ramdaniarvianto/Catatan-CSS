@@ -1,0 +1,17 @@
+/* Selector Tag */
+p {
+    font-family: 'Arial';
+    color: red;
+}
+
+/* Selector Class */
+.class {
+    font-family: 'Georgia';
+    color: royalblue;
+}
+
+/* Selector Id */
+#idi {
+    font-family: 'Verdana';
+    color: turquoise;
+}
