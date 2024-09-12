@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial';
+}
+
+div {
+    position: relative;
+    width: 140px;
+    height: 140px;
+    color: white;
+    text-align: center;
+}
+
+.pertama {
+    z-index: 1;
+    /*
+    z-index: ;
+    Properti ini mengontrol urutan tumpukan elemen yang diposisikan secara absolute, relative, atau fixed.
+    Menentukan lapisan elemen di halaman. Elemen dengan nilai z-index lebih tinggi akan berada di depan elemen dengan nilai lebih rendah.
+
+    Value z-index: 
+    - Angka positif atau negatif yang menentukan urutan tumpukan (elemen dengan nilai lebih tinggi akan berada di atas elemen lain).
+    */
+    background-color: royalblue;
+}
+
+.kedua {
+    bottom: 110px;
+    left: 25px;
+    background-color: red;
+}
+
+.ketiga {
+    z-index: 3;
+    bottom: 220px;
+    left: 50px;
+    background-color: greenyellow;
+}
+
+.keempat {
+    bottom: 330px;
+    left: 75px;
+    background-color: teal;
+}
+
+.kelima {
+    bottom: 440px;
+    left: 100px;
+    background-color: orchid;
+}
