@@ -58,3 +58,30 @@ p {
 span {
     background-color: greenyellow;
 }
+
+
+/* 
+background-clip: ;
+berfungsi untuk menentukan pengisian background pada element html yang memiliki border
+
+property background-clip:
+border-box : Value ini berfunsi untuk membuat background mengisi seluruh area pada element tersebut, sehingga background tetap mengisi sampai kebelakang border.
+padding-box : Value padding-box akan membuat background hanya mengisi content sampai batas pinggir dalam border, sehingga bagian border tidak diisi oleh background.
+content-box : Value content-box diterapkan apabila kalian tidak menginginkan background mengisi seluruh elemen, melainkan hanya kontennya saja.
+*/
+
+div {
+    border: 3px dotted black;
+    background: salmon;
+    padding: 10px;
+    margin: 10px;
+}
+.border {
+    background-clip: border-box;
+}
+.padding {
+    background-clip: padding-box;
+}
+.content {
+    background-clip: content-box;
+}
