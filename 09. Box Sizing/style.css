@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial';
+}
+
+div {
+    color: white;
+    text-align: center;
+}
+
+.dengan {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    box-sizing: border-box;
+    /*
+    box-sizing: ;
+    Properti ini menentukan bagaimana lebar dan tinggi elemen dihitung, apakah termasuk padding dan border atau tidak.
+    Berfungsi untuk mengontrol cara ukuran elemen dihitung, untuk menghindari masalah ketika elemen memiliki padding atau border.
+
+    Value box-sizing: 
+    - content-box: Lebar dan tinggi hanya mencakup konten (padding dan border tidak dihitung). (Ini adalah nilai default.)
+    - border-box: Lebar dan tinggi mencakup padding dan border, sehingga total ukuran elemen dihitung bersama padding dan border.
+    */
+    background-color: royalblue;
+}
+
+.tanpa {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    background-color: red;
+}
