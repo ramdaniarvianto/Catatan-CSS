@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial';
+}
+
+div {
+    padding: 10px 20px;
+    color: white;
+}
+
+/*
+position: ;
+Properti ini mengatur bagaimana elemen diposisikan di halaman. Mengatur posisi elemen secara lebih spesifik dalam halaman, terutama dalam desain layout kompleks.
+
+Value position: 
+- static: Posisi default, elemen diatur sesuai aliran dokumen.
+- relative: Posisi elemen relatif terhadap posisi aslinya.
+- absolute: Posisi elemen relatif terhadap elemen induk yang diposisikan (selain static).
+- fixed: Elemen diposisikan relatif terhadap viewport (tidak bergulir bersama halaman).
+- sticky: Elemen berubah menjadi fixed ketika mencapai posisi tertentu selama pengguliran.
+*/
+
+.static {
+    position: static;
+    /*
+    Position static digunakan untuk mengatur element menjadi statis secara default. Element mengikuti posisi normal secara default. Position static adalah nilai default dari property position pada CSS.
+    */
+    background-color: royalblue;
+}
+
+.relative {
+    position: relative;
+    /*
+    Posisi element tetap mengikuti alur dokumen, hampir sama dengan value static. Yang membedakan yaitu kita bisa menggunakan property top, right, bottom dan left. Pengaturan posisi pada suatu element menggunakan property tersebut akan mendorong atau mengatur element ke arah atau posisi yang diinginkan.
+    */
+    top: 20px;
+    left: 100px;
+    text-align: center;
+    background-color: red;
+}
+
+.fixed {
+    position: fixed;
+    /*
+    Property position yang bernilai fixed akan menghilangkan atau mencabut element dari alur dokumen, hampir sama sengan element yang diberi property position yang bernilai absolute. Yang menjadi perbedaan adalah element yang diberikan property position yang bernilai fixed akan selalu mengikuti (relative) dokumen, bukan element parent tertentu atau dengan scroll halaman web.
+    */
+    right: 0;
+    bottom: 100px;
+    background-color: yellowgreen;
+}
+
+.absolute {
+    position: absolute;
+    /*
+    Property position yang bernilai absolute akan menghilangkan atau mencabut element dari alur dokumen, dan element lainnya akan bekerja sebagaimana mestinya (tidak akan terganggu dengan element yang diberikan property absolute).
+
+    Apabila element yang mempunyai property absolute tersebut ada didalam sebuah element lagi (parent element), maka element tersebut akan diabaikan seakan-akan element tersebut tidak ada di dalam element parent tersebut.
+    */
+    background-color: rosybrown;
+}
+
+.sticky {
+    position: sticky;
+    /*
+    Property position yang bernilai sticky adalah gabungan dari relative dan fixed. Ketika element sticky belum berada di posisi nilai property top maka efeknya sama seperti position relative. Tetapi jika sudah ada di posisi nilai property top maka efeknya sama seperti position fixed.
+    */
+    top: 0;
+    background-color: palevioletred;
+}
