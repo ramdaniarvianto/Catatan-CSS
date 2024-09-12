@@ -1,0 +1,15 @@
+.default {
+    font-style: italic; /* Gaya Font */
+}
+
+.Arial {
+    font-family: 'Arial'; /* Jenis Font */
+    font-weight: bold; /* Ketebalan Font */
+    color: royalblue;
+}
+
+.GoogleFont {
+    font-family: 'Montserrat';
+    font-size: 20px; /* Ukuran Font */
+    color: red;
+}

@@ -1,3 +1,10 @@
+/* 
+### CATATAN ###
+- Untuk menseleksi tag, bisa langsung menuliskan nama tagnya
+- Untuk menseleksi class, gunakan "." lalu diikuti dengan nama class-nya
+- Untuk menseleksi id, gunakan "#" lalu diikuti dengan nama id-nya
+*/
+
 /* Selector Tag */
 p {
     font-family: 'Arial';
