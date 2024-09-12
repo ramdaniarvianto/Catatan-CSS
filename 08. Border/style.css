@@ -1,0 +1,101 @@
+body {
+    font-family: Arial;
+    background-color: #DDD;
+}
+
+h1 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+    border: 4px solid white;
+    /*
+    border: ;
+    Digunakan untuk menambahkan border di sekitar elemen. Properti ini bisa dikombinasikan atau ditentukan secara spesifik untuk setiap sisi:
+
+    - border-top
+    - border-right
+    - border-bottom
+    - border-left
+    */
+}
+
+.contoh {
+    color: white;
+    padding: 5px;
+    text-indent: 10px;
+    border-left: 10px solid royalblue;
+    background-color: rgb(80, 200, 250);
+    width: 100%;
+}
+
+.solid {
+    border: 2px solid black;
+    /*
+    Menampilkan garis border yang penuh dan solid. Sebuah garis utuh tanpa celah di sekeliling elemen.
+    */
+}
+
+.double {
+    border: 2px double black;
+    /*
+    Menampilkan border dengan dua garis sejajar. Dua garis sejajar dengan sedikit jarak di antara keduanya.
+    */
+}
+
+.groove {
+    border: 2px groove black;
+    /*
+    Border yang terlihat 3D, dengan efek alur (groove) yang terkesan menjorok ke dalam. Garis tepi terlihat seolah-olah menekan ke dalam, dengan warna yang lebih terang di satu sisi dan lebih gelap di sisi lainnya, menciptakan efek 3D.
+    */
+}
+
+.dotted {
+    border: 2px dotted black;
+    /*
+    Border yang terdiri dari titik-titik kecil. Garis tepi yang terbuat dari titik-titik berjarak sama.
+    */
+}
+
+.dashed {
+    border: 2px dashed black;
+    /*
+    Border yang terdiri dari garis putus-putus. Garis tepi terbuat dari segmen-segmen garis pendek dengan jarak yang sama.
+    */
+}
+
+.inset {
+    border: 6px inset black;
+    /*
+    Border dengan efek 3D yang terlihat masuk ke dalam elemen. Garis tepi terlihat seperti tertekan ke dalam, dengan warna lebih terang di bagian atas/kiri dan lebih gelap di bagian bawah/kanan, menciptakan efek terbenam.
+    */
+}
+
+.outset {
+    border: 6px outset black;
+    /*
+    Border dengan efek 3D yang terlihat keluar dari elemen. Garis tepi terlihat menonjol keluar dari elemen, dengan warna lebih terang di bagian bawah/kanan dan lebih gelap di bagian atas/kiri, menciptakan efek terangkat.
+    */
+}
+
+.ridge {
+    border: 2px ridge black;
+    /*
+    Border dengan efek 3D yang menyerupai punggung (ridge) atau tonjolan. Garis tepi terlihat seperti punggung yang menonjol dengan bayangan gelap dan terang di kedua sisi, menciptakan efek 3D.
+    */
+}
+
+.hidden {
+    border: 2px hidden black;
+    /*
+    Menyembunyikan border, mirip dengan none, tetapi memiliki konteks yang lebih spesifik dalam tata letak tabel. Border tidak akan terlihat sama sekali. Perbedaan dengan none: Dalam konteks tabel, hidden mencegah border dari elemen-elemen terkait (misalnya, sel tabel) untuk menyatu, sedangkan none benar-benar menghapus border.
+    */
+}
+
+.google {
+    border-top: 4px solid red;
+    border-right: 4px solid yellow;
+    border-bottom: 4px solid green;
+    border-left: 4px solid blue;
+}
