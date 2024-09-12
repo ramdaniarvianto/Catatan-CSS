@@ -1,0 +1,32 @@
+div {
+    width: 200px;
+}
+
+/*
+margin: ;
+Digunakan untuk mengatur jarak di luar elemen untuk memberikan ruang antara elemen-elemen pada halaman web. Sama seperti padding, properti margin juga dapat diatur secara spesifik untuk setiap sisi:
+
+value padding: 
+- margin-top
+- margin-right
+- margin-bottom
+- margin-left
+*/
+
+.satu {
+    padding: 10px; /* Atas 10, Kanan 10, Bawah 10, Kiri 10 */
+    margin: 10px; /* Atas 10, Kanan 10, Bawah 10, Kiri 10 */
+    background-color: royalblue;
+}
+
+.dua {
+    padding: 10px 20px; /* Atas Bawah 10, Kiri Kanan 20 */
+    margin: 10px 20px; /* Atas Bawah 10, Kiri Kanan 20 */
+    background-color: red;
+}
+
+.tiga {
+    padding: 5px 20px 40px 50px; /* Atas 5, Kanan 20, Bawah 40, Kiri 50 */
+    margin: 5px 20px 40px 50px; /* Atas 5, Kanan 20, Bawah 40, Kiri 50 */
+    background-color: greenyellow;
+}
