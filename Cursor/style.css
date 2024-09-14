@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    width: 30%;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    font-family: 'Arial';
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+    border-radius: 3px;
+}
+
+/*
+cursor: ;
+Properti cursor digunakan untuk menentukan tampilan kursor ketika bergerak di atas elemen tertentu. Ini dapat membantu memberikan petunjuk visual kepada pengguna tentang interaksi yang tersedia, seperti tombol yang dapat diklik, teks yang dapat disorot, atau area dengan menu konteks.
+
+Properti ini sangat penting dalam meningkatkan user experience (UX) dengan memberikan umpan balik visual yang sesuai dengan interaksi yang diharapkan pengguna pada elemen-elemen tertentu di halaman web.
+*/
+
+.alias {
+    cursor: alias;
+}
+
+.all-scroll {
+    cursor: all-scroll;
+}
+
+.auto {
+    cursor: auto;
+}
+
+.cell {
+    cursor: cell;
+}
+
+.col-resize {
+    cursor: col-resize;
+}
+
+.context-menu {
+    cursor: context-menu;
+}
+
+.crosshair {
+    cursor: crosshair;
+}
+
+.default {
+    cursor: default;
+}
+
+.e-resize {
+    cursor: e-resize;
+}
+
+.ew-resize {
+    cursor: ew-resize;
+}
+
+.grab {
+    cursor: grab;
+}
+
+.grabbing {
+    cursor: grabbing;
+}
+
+.help {
+    cursor: help;
+}
+
+.move {
+    cursor: move;
+}
+
+.n-resize {
+    cursor: n-resize;
+}
+
+.ne-resize {
+    cursor: ne-resize;
+}
+
+.nesw-resize {
+    cursor: nesw-resize;
+}
+
+.no-drop {
+    cursor: no-drop;
+}
+
+.none {
+    cursor: none;
+}
+
+.not-allowed {
+    cursor: not-allowed;
+}
+
+.ns-resize {
+    cursor: nesw-resize;
+}
+
+.nw-resize {
+    cursor: nw-resize;
+}
+
+.nwse-resize {
+    cursor: nwse-resize;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.progress {
+    cursor: progress;
+}
+
+.row-resize {
+    cursor: row-resize;
+}
+
+.s-resize {
+    cursor: s-resize;
+}
+
+.se-resize {
+    cursor: se-resize;
+}
+
+.sw-resize {
+    cursor: sw-resize;
+}
+
+.text {
+    cursor: text;
+}
+
+.vertical-text {
+    cursor: vertical-text;
+}
+
+.w-resize {
+    cursor: w-resize;
+}
+
+.wait {
+    cursor: wait;
+}
+
+.zoom-in {
+    cursor: zoom-in;
+}
+
+.zoom-out {
+    cursor: zoom-out;
+}

@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial;
     background-color: #DDD;
@@ -98,4 +102,58 @@ h1 {
     border-right: 4px solid yellow;
     border-bottom: 4px solid green;
     border-left: 4px solid blue;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    padding: 10px 0;
+    margin: 10px 0;
+    line-height: 0.2;
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+}
+
+.satu {
+    border-radius: 20px;
+}
+.dua {
+    border-radius: 20px 50px;
+}
+.tiga {
+    border-radius: 0 40px 40px 40px;
+}
+.empat {
+    border-radius: 40px 0 40px 40px;
+}
+.lima {
+    border-radius: 40px 40px 0 40px;
+}
+.enam {
+    border-radius: 40px 40px 40px 0;
+}
+.tujuh {
+    border-end-end-radius: 40px;
+}
+.delapan {
+    border-top-left-radius: 40px;
+}
+.sembilan {
+    border-top-right-radius: 40px;
+}
+.sepuluh {
+    border-end-start-radius: 40px;
+}
+.sebelas {
+    border-start-end-radius: 40px;
+}
+.duabelas {
+    border-start-start-radius: 40px;
+}
+.tigabelas {
+    border-bottom-left-radius: 40px;
+}
+.empatbelas {
+    border-bottom-right-radius: 40px;
 }

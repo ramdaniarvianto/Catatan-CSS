@@ -5,6 +5,11 @@
 - Untuk menseleksi id, gunakan "#" lalu diikuti dengan nama id-nya
 */
 
+/* Selector Global */
+* {
+    background-color: black;
+}
+
 /* Selector Tag */
 p {
     font-family: 'Arial';

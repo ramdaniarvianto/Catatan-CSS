@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+body {
+    display: grid;
+    justify-items: center;
+}
+
+table {
+    width: 90%;
+    margin: 10px 0;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: #EEE;
+}
+tr:hover {
+    background-color: #DDD;
+}
+
+th {
+    padding: 10px;
+    color: #FFF;
+    background-color: royalblue;
+}
+
+td {
+    padding: 10px;
+}
+
+td:nth-child(3) {
+    text-align: center;
+}
+
+tfoot {
+    text-align: center;
+    color: #FFF;
+    background-color: #1B1B1B;
+}

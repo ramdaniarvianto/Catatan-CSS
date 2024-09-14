@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial';
+    margin: 30px 25px;
+}
+
+*::selection {
+    color: green;
+    background-color: gold;
+}
+
+a {
+    padding: 10px 38px;
+    color: white;
+    background-color: royalblue;
+    transition: .2s ease-in-out;
+}
+a:hover {
+    padding: 10px 80px;
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+}
+a:active {
+    background-color: green;
+}
+a:visited {
+    background-color: yellow;
+}
+
+
+input[type="text"] {
+    width: 100px;
+    padding: 8px;
+    color: royalblue;
+    transition: .2s ease-in-out;
+}
+input[type="text"]:focus {
+    width: 250px;
+    outline-color: royalblue;
+}
+input[type="text"]::placeholder {
+    color: royalblue;
+}
+
+
+input[type="password"] {
+    width: 100px;
+    padding: 8px;
+    color: royalblue;
+    transition: .2s ease-in-out;
+}
+
+
+p:first-child {
+    color: turquoise;
+}
+
+p:first-of-type {
+    color: red;
+}
+
+p:last-of-type {
+    color: royalblue;
+}
+
+
+i:first-child {
+    color: springgreen;
+}
+
+i:last-child {
+    color: palevioletred;
+}
+
+
+li::marker {
+    color: tomato;
+}

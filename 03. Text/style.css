@@ -97,3 +97,8 @@ h1 {
     - none: Tidak ada perubahan pada kapitalisasi.
     */
 }
+
+
+p.vertikal {
+    writing-mode: vertical-rl;
+}

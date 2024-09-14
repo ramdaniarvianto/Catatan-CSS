@@ -1,0 +1,17 @@
+body {
+    font-family: 'Arial';
+}
+
+h1 {
+    text-shadow: 2px/* Horizontal */ 2px/* Vertikal */ 2px/* Blur */ orange;
+    color: yellow;
+}
+
+div {
+    box-shadow: 2px/* Horizontal */ 2px/* Vertikal */ 6px/* Blur */ 5px/* Spread */ greenyellow;
+    background-color: green;
+    color: greenyellow;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
