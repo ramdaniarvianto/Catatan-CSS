@@ -13,17 +13,16 @@ div {
 }
 
 /* 
-Transform adalah salah satu yang terpenting yang harus dipahami jika ingin membuat efek animasi dengan CSS. Nantinya bisa membuat efek memutar element, membuat element bergerak dan sebagainya. Salah satu yang menjadi dasarnya adalah CSS transform.
-
-CSS transform atau transformasi CSS memungkinkan untuk membuat efek rotate (memutar element), scale, dan skew pada element html.
+transform: ;
+Memungkinkan manipulasi elemen seperti menggeser, memutar, memperbesar/memperkecil, atau memiringkan elemen.
 
 translate() : Digunakan untuk memindahkan sebuah element. Kalian bisa menentukan posisinya dengan memberikan nilai pada parameter X untuk jarak samping dan parameter Y untuk jarak tingginya.
 
-scale()     : Digunakan untuk melebarkan atau menjauhkan element dengan menambah atau mengurangi ukuran element. Seperti effect zoom lah kira-kiranya.
+scale()     : Digunakan untuk melebarkan atau menjauhkan element dengan menambah atau mengurangi ukuran element.
 
 skew()      : Digunakan untuk memiringkan element.
 
-rotate()    : Fungsi yang bisa kalian gunakan untuk memutar sebuah element. Untuk memutar element nya kalian bisa menentukan nilainya di dalam parameter fungsi rotate ini. Untuk nilainya sendiri bisa ditentukan dengan cara memberikan nilai derajat putar nya.
+rotate()    : Fungsi yang bisa kalian gunakan untuk memutar sebuah element. Untuk nilainya sendiri bisa ditentukan dengan cara memberikan nilai derajat putar nya.
 
 matrix()    : Fungsi matrix berguna untuk menggabungkan beberapa transform lainnya seperti menggabungkan rotate(), skew(), scale() dan lainnya menjadi satu. Sehingga transform tersebut akan dilakukan secara sekaligus.
 */
