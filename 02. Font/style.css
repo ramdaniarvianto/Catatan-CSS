@@ -8,6 +8,20 @@
     color: royalblue;
 }
 
+/* Google Fonts adalah layanan dari Google yang menyediakan berbagai font web gratis yang bisa digunakan di dalam website.
+
+Cara Menggunakan Google Fonts dalam CSS:
+1. Buka Situs Google Fonts:
+    - Kunjungi https://fonts.google.com/
+    - Cari dan pilih font, Misalnya, font 'Montserrat'
+2. Get Font, <get embed code>
+3. Copy code:
+    - Embed code in the <head> of your html
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+4. Paste di HTML, di CSS : font-family: 'Montserrat';
+*/
 .GoogleFont {
     font-family: 'Montserrat';
     font-size: 20px; /* Ukuran Font */
