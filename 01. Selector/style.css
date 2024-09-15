@@ -6,6 +6,8 @@
 */
 
 /* Selector Global */
+/* Selector global dalam CSS adalah selector yang digunakan untuk memilih semua elemen dalam dokumen HTML. Selector global diwakili oleh simbol asterisk (*).
+(*) : Ini adalah selector global yang memilih semua elemen di halaman web. */
 * {
     background-color: black;
 }
