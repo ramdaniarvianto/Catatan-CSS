@@ -21,6 +21,10 @@
     background-color: royalblue;
 }
 
+/* 
+opacity: ;
+Digunakan untuk mengatur tingkat transparansi suatu elemen. Nilai properti ini berkisar dari 0 (sepenuhnya transparan) hingga 1 tidak transparan (default).
+*/
 .satu {
     opacity: 0;
 }
