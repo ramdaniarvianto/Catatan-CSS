@@ -35,6 +35,36 @@ div {
     border-left: 10px solid palevioletred;
 }
 
+/*
+Display dalam CSS digunakan untuk menentukan bagaimana elemen HTML dirender dalam dokumen, baik sebagai elemen baris, elemen blok, atau kombinasi keduanya.
+
+1. display: inline;
+    Elemen dengan nilai inline akan dirender dalam satu baris dengan elemen lainnya, dan tidak memulai baris baru. Elemen hanya mengambil ruang sesuai dengan kontennya.
+    
+    Karakteristik:
+    - Tidak memulai baris baru.
+    - Lebarnya hanya sebesar konten di dalamnya.
+    - Properti width dan height tidak berpengaruh.
+    - Margin dan padding hanya berfungsi secara horizontal (kiri/kanan), namun tidak berlaku secara vertikal (atas/bawah).
+
+2. display: block;
+    Elemen dengan nilai block akan memulai baris baru dan memakan lebar penuh yang tersedia secara default, meskipun kontennya lebih kecil. Elemen ini mengisi seluruh ruang horizontal.
+
+    Karakteristik:
+    - Selalu memulai baris baru.
+    - Lebarnya secara default adalah 100% dari elemen induknya.
+    - Bisa menggunakan properti width, height, margin, dan padding secara penuh.
+
+3. display: inline-block;
+    Elemen dengan inline-block memiliki sifat campuran dari elemen inline dan block. Elemen ini tetap ditampilkan dalam baris yang sama dengan elemen lainnya (seperti inline), namun bisa memiliki ukuran yang ditentukan oleh width dan height (seperti block).
+
+    Karakteristik:
+    - Tidak memulai baris baru, sehingga elemen-elemen lain bisa berada di sebelahnya.
+    - Lebar dan tinggi dapat diatur.
+    - Margin dan padding bekerja baik secara vertikal maupun horizontal.
+
+*/
+
 h1.inline {
     display: inline;
     background-color: olivedrab;
