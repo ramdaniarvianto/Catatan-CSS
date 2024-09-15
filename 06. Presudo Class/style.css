@@ -3,6 +3,10 @@ body {
     margin: 30px 25px;
 }
 
+/* 
+Pseudo Class adalah keyword yang dapat ditambahkan ke selektor untuk menentukan keadaan khusus dari elemen. Pseudo Class membantu menargetkan elemen-elemen berdasarkan status atau kondisi tertentu tanpa harus menambahkan kelas tambahan ke elemen tersebut.
+*/
+
 *::selection {
     color: green;
     background-color: gold;
@@ -14,12 +18,14 @@ a {
     background-color: royalblue;
     transition: .2s ease-in-out;
 }
+/* Mengaktifkan ketika pengguna mengarahkan kursor ke elemen. */
 a:hover {
     padding: 10px 80px;
     text-decoration: none;
     background-color: red;
     border-radius: 5px;
 }
+/* Mengaktifkan saat pengguna menekan elemen, seperti tombol atau tautan. */
 a:active {
     background-color: green;
 }
@@ -34,6 +40,7 @@ input[type="text"] {
     color: royalblue;
     transition: .2s ease-in-out;
 }
+/* Mengaktifkan ketika elemen mendapatkan fokus, biasanya melalui klik atau penggunaan keyboard */
 input[type="text"]:focus {
     width: 250px;
     outline-color: royalblue;
@@ -50,15 +57,49 @@ input[type="password"] {
     transition: .2s ease-in-out;
 }
 
+table {
+    width: 100%;
+    /* background-color: red; */
+    border-collapse: collapse;
+}
 
+/*
+:nth-child()
+Memilih elemen berdasarkan posisi relatifnya di dalam induknya. Parameter yang diterima bisa berupa angka, odd (ganjil), atau even (genap).
+*/
+/* tr:nth-child(odd) {
+    background-color: #DDD;
+} */
+tr:nth-child(even) {
+    background-color: #DDD;
+}
+
+/* Memilih elemen berdasarkan jenis dan posisi relatif dalam tipe yang sama. */
+/* tr:nth-of-type(3) {
+    background-color: #DDD;
+} */
+
+th {
+    padding: 10px 0;
+    color: white;
+    background-color: #333;
+}
+
+td {
+    padding: 8px 10px;
+}
+
+/* Memilih elemen yang merupakan anak pertama dari induknya. */
 p:first-child {
     color: turquoise;
 }
 
+/* Memilih elemen yang merupakan elemen pertama dari jenisnya di dalam induk. */
 p:first-of-type {
     color: red;
 }
 
+/* Memilih elemen yang merupakan elemen terakhir dari jenisnya di dalam induk. */
 p:last-of-type {
     color: royalblue;
 }
@@ -68,11 +109,14 @@ i:first-child {
     color: springgreen;
 }
 
+/* Memilih elemen yang merupakan anak terakhir dari induknya. */
 i:last-child {
     color: palevioletred;
 }
 
-
+/* Untuk menargetkan marker (penanda) dari elemen daftar seperti <ul>, <ol>, atau elemen daftar dengan gaya khusus (misalnya bullet point atau angka). */
 li::marker {
     color: tomato;
+    /* content: none; */  /* Mengganti simbol marker. */
+    /* content: 'RA'; */
 }
