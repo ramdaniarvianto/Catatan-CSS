@@ -6,13 +6,15 @@
 }
 
 /* 
-CSS transisi (CSS transition) adalah efek transisi yang memungkinkan sebuah element secara bertahap berubah dari satu gaya ke gaya yang lain. Banyak sekali contoh pengaplikasian efek transisi pada kehidupan sehari-hari, misalnya saja ketika kalian membuat materi presentasi dengan powerpoint, pasti tidak akan lepas dengan animasi-animasi dan efek transisi untuk mempercantik tampilan slidenya.
+transition: ;
+Digunakan untuk membuat perubahan CSS menjadi lebih halus dengan animasi ketika suatu properti berubah nilainya, misalnya saat elemen di-hover atau di-klik.
 
-Property transition-duration : berfungsi untuk mengatur durasi transisi.
+transition: property duration timing-function delay;
 
-Property transition-timing-function : berfungsi untuk mengatur timing transisi (bukan durasi transisi), silahkan klik disini untuk live preview.
-
-Property transition-delay : berfungsi untuk mengatur delay sebelum transisi dijalankan atau dieksekusi.
+- property: Properti CSS yang akan di-animasi (misalnya width, opacity).
+- duration: Waktu animasi dalam detik atau milidetik (misalnya 0.5s).
+- timing-function: Fungsi kecepatan animasi, seperti ease, linear, ease-in-out.
+- delay: Waktu tunda sebelum animasi dimulai.
 */
 
 header {
