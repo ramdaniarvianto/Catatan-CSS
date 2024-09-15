@@ -20,6 +20,20 @@ img {
     animation: kipas .8s linear infinite;
 }
 
+/*
+@keyframes
+Digunakan untuk mendefinisikan rangkaian langkah-langkah animasi yang diterapkan pada elemen. @keyframes dapat menentukan animasi dari satu titik waktu ke titik waktu lainnya, dengan berbagai perubahan properti.
+
+animation: animationName duration timing-function delay iteration-count direction;
+
+- animationName: Nama dari animasi.
+- duration: Lama animasi (misalnya 2s).
+- timing-function: Seperti pada transition.
+- delay: Waktu tunda animasi.
+- iteration-count: Berapa kali animasi berjalan (infinite untuk animasi terus menerus).
+- direction: Arah animasi (normal, reverse, alternate).
+*/
+
 @keyframes kipas {
     100% {
         transform: rotate(360deg);
