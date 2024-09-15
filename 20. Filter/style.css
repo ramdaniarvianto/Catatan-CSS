@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+/*
+filter: ;
+Untuk menerapkan efek visual seperti blur, grayscale, kontras, saturasi, dan lain-lain pada elemen HTML.
+*/
 .blur {
     filter: blur(5px);
 }
