@@ -99,6 +99,74 @@ h1 {
 }
 
 
+.word-break {
+    /* word-break: normal; */
+    word-break: break-all;
+    color: white;
+    background-color: #666;
+}
+
+.word-wrap {
+    word-wrap: normal;
+    /* word-wrap: break-word; */
+    color: red;
+    background-color: #DDD;
+}
+
+.white-space-nw {
+    /* white-space: normal; */
+    white-space: nowrap;
+    color: green;
+    background-color: #DDD;
+}
+
+.white-space-pre {
+    /* white-space: normal; */
+    white-space: pre;
+    color: purple;
+    background-color: #DDD;
+}
+
+.white-space-pw {
+    /* white-space: normal; */
+    white-space: pre-wrap;
+    color: peru;
+    background-color: #DDD;
+    margin-top: 15px;
+}
+
+.white-space-pl {
+    /* white-space: normal; */
+    white-space: pre-line;
+    color: orangered;
+    background-color: #DDD;
+    margin-top: 15px;
+}
+
+
 p.vertikal {
     writing-mode: vertical-rl;
+}
+
+.ol {
+    text-decoration: overline;
+}
+.ol2 {
+    text-decoration: overline dotted red;
+}
+.lt {
+    text-decoration: line-through;
+}
+.lt2 {
+    text-decoration: line-through double orange;
+}
+.ul {
+    text-decoration: underline;
+}
+.ul2 {
+    text-decoration: underline wavy royalblue;
+}
+
+a:last-of-type {
+    text-decoration: none;
 }

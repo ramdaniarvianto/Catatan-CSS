@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+div {
+    width: 300px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 
+Transform adalah salah satu yang terpenting yang harus dipahami jika ingin membuat efek animasi dengan CSS. Nantinya bisa membuat efek memutar element, membuat element bergerak dan sebagainya. Salah satu yang menjadi dasarnya adalah CSS transform.
+
+CSS transform atau transformasi CSS memungkinkan untuk membuat efek rotate (memutar element), scale, dan skew pada element html.
+
+translate() : Digunakan untuk memindahkan sebuah element. Kalian bisa menentukan posisinya dengan memberikan nilai pada parameter X untuk jarak samping dan parameter Y untuk jarak tingginya.
+
+scale()     : Digunakan untuk melebarkan atau menjauhkan element dengan menambah atau mengurangi ukuran element. Seperti effect zoom lah kira-kiranya.
+
+skew()      : Digunakan untuk memiringkan element.
+
+rotate()    : Fungsi yang bisa kalian gunakan untuk memutar sebuah element. Untuk memutar element nya kalian bisa menentukan nilainya di dalam parameter fungsi rotate ini. Untuk nilainya sendiri bisa ditentukan dengan cara memberikan nilai derajat putar nya.
+
+matrix()    : Fungsi matrix berguna untuk menggabungkan beberapa transform lainnya seperti menggabungkan rotate(), skew(), scale() dan lainnya menjadi satu. Sehingga transform tersebut akan dilakukan secara sekaligus.
+*/
+
+.translate {
+    transform: translate(30px);
+    background-color: royalblue;
+    transition: .2s ease-in-out;
+}
+.translate:hover {
+    transform: translate(100px);
+}
+
+.rotate {
+    transform: rotate(-10deg);
+    background-color: red;
+    transition: .2s ease-in-out;
+}
+.rotate:hover {
+    transform: rotate(20deg);
+}
+
+.rotate-x {
+    background-color: blueviolet;
+    transition: .9s ease-in-out;
+}
+.rotate-x:hover {
+    transform: rotateX(150deg);
+}
+
+.rotate-y {
+    background-color: slategray;
+    transition: .9s ease-in-out;
+}
+.rotate-y:hover {
+    transform: rotateY(150deg);
+}
+
+.rotate-z {
+    background-color: green;
+    transition: .9s ease-in-out;
+}
+.rotate-z:hover {
+    transform: rotateZ(360deg);
+}
+
+.scale {
+    transform: scale(1);
+    background-color: coral;
+    transition: .2s ease-in-out;
+}
+.scale:hover {
+    transform: scale(1.3);
+}
+
+.skew {
+    transform: skew(-10deg);
+    background-color: violet;
+    transition: .2s ease-in-out;
+}
+.skew:hover {
+    transform: skew(10deg);
+}
+
+.matrix {
+    /* scaleX | skewY | skewX | scaleY | translateX | translateY */
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+    background-color: tomato;
+    transition: .2s ease-in-out;
+}
+.matrix:hover {
+    transform: matrix(1.5, 0.5, 2, 3, 10, -150);
+}
+
+.combination {
+    transform: translate(50px, 100px) rotate(45deg) scale(0.5);
+    background-color: slateblue;
+    transition: .2s ease-in-out;
+}
+.combination:hover {
+    transform: none;
+}

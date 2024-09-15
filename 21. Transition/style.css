@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+/* 
+CSS transisi (CSS transition) adalah efek transisi yang memungkinkan sebuah element secara bertahap berubah dari satu gaya ke gaya yang lain. Banyak sekali contoh pengaplikasian efek transisi pada kehidupan sehari-hari, misalnya saja ketika kalian membuat materi presentasi dengan powerpoint, pasti tidak akan lepas dengan animasi-animasi dan efek transisi untuk mempercantik tampilan slidenya.
+
+Property transition-duration : berfungsi untuk mengatur durasi transisi.
+
+Property transition-timing-function : berfungsi untuk mengatur timing transisi (bukan durasi transisi), silahkan klik disini untuk live preview.
+
+Property transition-delay : berfungsi untuk mengatur delay sebelum transisi dijalankan atau dieksekusi.
+*/
+
+header {
+    transition: .3s ease-in-out;
+    cursor: default;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: royalblue;
+}
+header:hover {
+    color: black;
+    background-color: skyblue;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+.satu {
+    background-color: cornflowerblue;
+}
+.satu:hover {
+    width: 80%;
+}
+
+.dua {
+    transition: .5s ease;
+    background-color: navy;
+}
+.dua:hover {
+    width: 80%;
+}
+
+.tiga {
+    background-color: cornflowerblue;
+}
+.tiga:hover {
+    transition: .5s ease-in;
+    width: 80%;
+}
+
+.empat {
+    transition: .5s ease-out;
+    background-color: navy;
+}
+.empat:hover {
+    width: 80%;
+}
+
+.lima {
+    transition: .5s ease-in-out;
+    background-color: cornflowerblue;
+}
+.lima:hover {
+    width: 80%;
+}
+
+.enam {
+    transition: .5s linear;
+    background-color: navy;
+}
+.enam:hover {
+    width: 80%;
+}
+
+.tujuh {
+    transition: .5s linear 3s;
+    background-color: cornflowerblue;
+}
+.tujuh:hover {
+    width: 80%;
+}
+
+h2, p {
+    color: burlywood;
+    transition: .3s linear;
+}
+h2:hover, p:hover {
+    color: red;
+    font-size: 5rem;
+}
