@@ -12,34 +12,39 @@ div {
     border-radius: 5px;
 }
 
+/* 
+overflow: ;
+Digunakan untuk mengontrol apa yang terjadi jika konten di dalam sebuah elemen lebih besar daripada ukuran elemen tersebut (misalnya, jika konten melebihi lebar atau tinggi elemen). Properti ini memungkinkan kita mengatur bagaimana konten yang keluar dari batas elemen akan ditampilkan.
+*/
+
 .visible {
-    overflow: visible;
+    overflow: visible; /* Konten yang melebihi batas elemen akan tetap terlihat di luar batas elemen. */
     background-color: royalblue;
     margin-bottom: 180px;
 }
 
 .hidden {
-    overflow: hidden;
+    overflow: hidden; /* Konten yang melebihi batas elemen akan terpotong dan tidak akan terlihat. */
     background-color: red;
 }
 
 .scroll {
-    overflow: scroll;
+    overflow: scroll; /* Jika konten melebihi batas elemen, scrollbar selalu muncul, baik secara horizontal maupun vertikal, terlepas dari apakah konten benar-benar melampaui ukuran elemen atau tidak. */
     background-color: rosybrown;
 }
 
 .auto {
-    overflow: auto;
+    overflow: auto; /* Scrollbar hanya akan muncul jika diperlukan, yaitu jika konten melampaui batas elemen. Jika tidak, scrollbar tidak akan ditampilkan. */
     background-color: orange;
 }
 
 .overflow-x {
-    overflow-x: scroll;
+    overflow-x: scroll; /* Mengontrol overflow secara horizontal (sumbu-x). */
     background-color: cadetblue;
     text-wrap: nowrap;
 }
 
 .overflow-y {
-    overflow-y: scroll;
+    overflow-y: scroll; /* Mengontrol overflow secara vertikal (sumbu-y). */
     background-color: violet;
 }
