@@ -15,7 +15,7 @@
 }
 
 textarea {
-    resize: none;
+    resize: none; /* Mengontrol kemampuan pengguna untuk mengubah ukuran elemen, biasanya elemen <textarea>. Nilai none mencegah elemen agar tidak bisa diubah ukurannya. */
     width: 100%;
     height: 300px;
     padding: 10px;
