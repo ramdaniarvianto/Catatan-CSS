@@ -61,13 +61,14 @@ h1 {
     /* white-space: normal; */
     /*
     white-space: ;
-    Berguna untuk mengatur bagaimana teks harus ditampilkan ketika ada spasi ekstra atau baris baru di dalam konten.
+    Properti CSS yang digunakan untuk mengontrol bagaimana elemen menangani spasi putih (white space), termasuk spasi kosong, tab, dan baris baru dalam konten teks. Properti ini sangat berguna untuk mengendalikan tata letak teks atau konten dalam sebuah elemen.
 
     Value white-space: 
-    - normal: Spasi diabaikan, teks dibungkus secara otomatis (default).
-    - nowrap: Teks tidak akan dibungkus ke baris baru.
-    - pre: Mempertahankan whitespace seperti yang ada dalam kode (spasi, tab, baris baru).
-    - pre-line: Spasi akan dipadatkan, tetapi baris baru dipertahankan.
+    - normal: Spasi kosong akan diringkas menjadi satu spasi, dan baris baru akan diabaikan. Jika teks terlalu panjang untuk satu baris, teks akan membungkus ke baris berikutnya. Spasi diringkas, teks dibungkus.
+    - nowrap: Semua spasi kosong diringkas menjadi satu, tetapi teks tidak akan membungkus ke baris berikutnya meskipun melebihi lebar kontainer. Konten akan berada dalam satu baris dan dapat menyebabkan elemen melebar melebihi kontainernya.
+    - pre: Mempertahankan spasi kosong dan baris baru persis seperti yang ada dalam kode sumber, seperti pada elemen <pre>. Teks tidak akan membungkus secara otomatis.
+    - pre-wrap: Mirip dengan pre, tetapi teks akan membungkus ke baris berikutnya jika melebihi lebar kontainer, sambil tetap mempertahankan spasi kosong dan baris baru dari kode sumber.
+    - pre-line: Menggabungkan perilaku normal dan pre. Baris baru tetap dipertahankan, tetapi spasi kosong diringkas menjadi satu, dan teks akan membungkus jika melebihi lebar kontainer.
     */
 }
 
@@ -115,21 +116,21 @@ h1 {
 
 .white-space-nw {
     /* white-space: normal; */
-    white-space: nowrap;
+    white-space: nowrap; /* Spasi diringkas, teks tidak dibungkus. */
     color: green;
     background-color: #DDD;
 }
 
 .white-space-pre {
     /* white-space: normal; */
-    white-space: pre;
+    white-space: pre; /* Spasi dipertahankan, teks tidak dibungkus. */
     color: purple;
     background-color: #DDD;
 }
 
 .white-space-pw {
     /* white-space: normal; */
-    white-space: pre-wrap;
+    white-space: pre-wrap; /* Spasi dipertahankan, teks dibungkus. */
     color: peru;
     background-color: #DDD;
     margin-top: 15px;
@@ -137,7 +138,7 @@ h1 {
 
 .white-space-pl {
     /* white-space: normal; */
-    white-space: pre-line;
+    white-space: pre-line; /* Baris baru dipertahankan, spasi diringkas, teks dibungkus. */
     color: orangered;
     background-color: #DDD;
     margin-top: 15px;
